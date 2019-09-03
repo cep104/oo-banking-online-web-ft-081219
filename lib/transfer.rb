@@ -19,5 +19,7 @@ class Transfer
    if @status = "complete"
     @amount = 0
   end
+  if @sender.balance < @amount 
+    @status = "reject"
  end
 end
