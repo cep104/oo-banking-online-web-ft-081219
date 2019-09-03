@@ -28,7 +28,7 @@ class Transfer
   # if @receiver.balance > amount && valid? 
        @sender.balance += @amount 
       @receiver.balance -= @amount
-      status = "reversed"
+      # status = "reversed"
     # else 
     #   status = "rejected"
     #   "Transaction rejected. Please check your account balance." 
