@@ -20,9 +20,9 @@ class Transfer
     @amount = 0
   end
   if valid? && @sender.balance < @amount 
-    @status == "rejected"
    else 
      "Transaction rejected. Please check your account balance."
+     @status == "rejected"
   end
  end
 end
