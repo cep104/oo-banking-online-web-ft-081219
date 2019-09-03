@@ -9,6 +9,6 @@ class Transfer
  end
  
  def valid?
-   if self.status 
+   if .status 
  end
 end
