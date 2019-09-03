@@ -31,11 +31,6 @@ class Transfer
        status = "reversed"
      else 
        status = "rejected"
-      # status = "reversed"
-    # else 
-    #   status = "rejected"
-    #   "Transaction rejected. Please check your account balance." 
-    # end
- end
- end
+    end
+  end
 end
