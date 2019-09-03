@@ -9,6 +9,6 @@ class Transfer
  end
  
  def valid?
-   if .status 
+   if ban 
  end
 end
