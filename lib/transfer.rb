@@ -18,5 +18,6 @@ class Transfer
     @status = "complete"
    if @status = "complete"
     @amount = 0 
+  end
  end
 end
