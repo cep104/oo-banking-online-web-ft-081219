@@ -29,7 +29,7 @@ class Transfer
     # binding.pry
        @receiver.balance -= @amount 
        @sender.balance += @amount
-       status = "reversed"
+       @status = "reversed"
      else 
        status = "rejected"
 
