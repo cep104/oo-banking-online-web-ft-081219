@@ -1,5 +1,5 @@
 class Transfer
-  attr_accessor :receiver, :amount, :sender, :status
+  attr_accessor :receiver, :amount, :sender, :status, :withdrawl, :deposit
   
  def initialize(sender, receiver, amount)
    @receiver = receiver
@@ -26,8 +26,8 @@ class Transfer
  
  def reverse_transfer 
   # if @receiver.balance > amount && valid? 
-       @receiver.balance.@withdrawl 
-       @sender.balance.@deposit
+       @receiver.balance.withdrawl 
+       @sender.balance.deposit
       # status = "reversed"
     # else 
     #   status = "rejected"
