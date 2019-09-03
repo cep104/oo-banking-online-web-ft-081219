@@ -7,4 +7,8 @@ class Transfer
    @sender = sender
    @status = "pending"
  end
+ 
+ def valid?
+   if self.
+ end
 end
