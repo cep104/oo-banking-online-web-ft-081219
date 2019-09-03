@@ -21,5 +21,6 @@ class Transfer
   end
   if @sender.balance < @amount 
     @status = "reject"
+  end
  end
 end
