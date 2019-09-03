@@ -13,8 +13,8 @@ class Transfer
  end
  
  def execute_transaction
-   @sender.balance -= @amount 
-   @receiver.balance += @amount
+   withdrawl = @sender.balance -= @amount 
+   deposit = @receiver.balance += @amount
     @status = "complete"
   if valid? && @status == "complete"
     @amount = 0
