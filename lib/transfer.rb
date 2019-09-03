@@ -27,7 +27,7 @@ class Transfer
  def reverse_transfer 
       @sender.balance += @amount 
       @receiver.balance -= @amount
-   if receiver.balance < amount && valid? 
+   if receiver.balance < amount  
       status = "reversed"
     else 
       status = "rejected"
