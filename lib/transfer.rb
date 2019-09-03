@@ -22,7 +22,7 @@ class Transfer
   if valid? && @sender.balance < @amount 
      "Transaction rejected. Please check your account balance."
    else 
-     false
+     "Transaction rejected. Please check your account balance."
   end
  end
 end
