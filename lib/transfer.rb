@@ -29,9 +29,6 @@ class Transfer
        @receiver.balance -= @amount 
        @sender.balance += @amount
        status = "reversed"
-     else 
-       status = "rejected"
-
  end
  end
 end
