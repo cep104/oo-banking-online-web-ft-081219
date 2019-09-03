@@ -37,3 +37,4 @@ if valid? && sender.balance > amount && self.status == "pending"
       "Transaction rejected. Please check your account balance."
     end
   end
+  end
