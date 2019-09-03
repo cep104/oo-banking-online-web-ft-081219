@@ -22,8 +22,6 @@ class Transfer
   if self.valid? && @sender.balance < @amount 
      "Transaction rejected. Please check your account balance."
      @status == "rejected"
-   else 
-     false
   end
  end
 end
