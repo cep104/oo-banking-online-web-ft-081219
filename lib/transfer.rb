@@ -1,3 +1,4 @@
+require 'pry'
 class Transfer
   attr_accessor :receiver, :amount, :sender, :status, :withdrawl, :deposit
   
@@ -26,6 +27,7 @@ class Transfer
  
  def reverse_transfer 
   if @receiver.balance > amount && valid? && @status == "complete"
+    binding.pry
        @receiver.balance -= @amount 
        @sender.balance += @amount
        status = "reversed"
