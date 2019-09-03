@@ -1,3 +1,4 @@
 class Transfer
-  initilize()
+ def initilize(name,two,three)
+ end
 end
