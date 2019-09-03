@@ -9,6 +9,10 @@ class Transfer
  end
  
  def valid?
-   if ban 
+   if sender.bankaccount.valid? == true && receiver.bankaccount.valid? == true 
+     true 
+   else
+     false 
+   end
  end
 end
